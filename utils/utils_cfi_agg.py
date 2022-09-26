@@ -23,7 +23,7 @@ def filter_df_cancels(df_cancels,cfi_agg_params):
 
     # Filtering
     if AGE_MINS and LEVEL_DIFFERENCE_SINCE_ARRIVAL:
-        df_cancels_filtered = df_cancels_filtered[(df_cancels_filtered.AgeMins > age_mins) | (np.abs(df_cancels_filtered.Level - df_cancels_filtered.LevelArrival) > level_difference) ]
+        df_cancels_filtered = df_cancels_filtered[(df_cancels_filtered.AgeMins > age_mins) | (np.abs(df_cancels_filtered.Level - df_cancels_filtered.LevelArrival) >= level_difference) ]
     elif AGE_MINS and not LEVEL_DIFFERENCE_SINCE_ARRIVAL:
         df_cancels_filtered = df_cancels_filtered[(df_cancels_filtered.AgeMins > age_mins)]
     elif LEVEL_DIFFERENCE_SINCE_ARRIVAL and not AGE_MINS:
