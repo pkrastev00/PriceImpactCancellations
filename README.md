@@ -29,7 +29,8 @@ Contains all files used for preprocssing the LOBSTER data. More precisely each f
   - Calculates counts and total volume information 
 
 ## Experiment4_main.py
-  - Script for main experiment. Extracts cfi, log returns and cancellation and total volume infromation
+  - Script for main experiment. 
+  - Extracts cfi, log returns and cancellation and total volume infromation
 
 ## Experiment4_main.sh
   - Shell file to run experiment on SLURM
