@@ -37,7 +37,7 @@ def get_cfi(df_msg_period,df_cancels,cfi_agg_params):
     if AGE_MINS:
         df_cancels_period_filtered = df_cancels_period_filtered[(df_cancels_period_filtered.AgeMins > age_mins)]
     if WHOLE_LEVEL and LEVEL_DIFFERENCE_SINCE_ARRIVAL:
-        df_cancels_period_filtered = df_cancels_period_filtered[(df_cancels_period_filtered.Size/df_cancels_period_filtered.LevelSize >= level_ratio) | (np.abs(df_cancels_period_filtered.Level - df_cancels_period_filtered.LevelArrival) > level_difference)]
+        df_cancels_period_filtered = df_cancels_period_filtered[(df_cancels_period_filtered.Size/df_cancels_period_filtered.LevelSize >= level_ratio) | (np.abs(df_cancels_period_filtered.Level - df_cancels_period_filtered.LevelArrival) >= level_difference)]
     if WHOLE_LEVEL and not LEVEL_DIFFERENCE_SINCE_ARRIVAL:
         df_cancels_period_filtered = df_cancels_period_filtered[(df_cancels_period_filtered.Size/df_cancels_period_filtered.LevelSize >= level_ratio)]
     if LEVEL_DIFFERENCE_SINCE_ARRIVAL and not WHOLE_LEVEL:
