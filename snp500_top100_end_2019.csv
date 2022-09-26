@@ -1,0 +1,101 @@
+,Ticker,Sector
+0,AAPL,Information Technology
+1,MSFT,Information Technology
+2,AMZN,Consumer Discretionary
+3,FB,Communication Services
+4,BRK.B,Financials
+5,JPM,Financials
+6,GOOGL,Communication Services
+7,GOOG,Communication Services
+8,JNJ,Health Care
+9,V,Information Technology
+10,PG,Consumer Staples
+11,XOM,Energy
+12,T,Communication Services
+13,BAC,Financials
+14,UNH,Health Care
+15,MA,Information Technology
+16,DIS,Communication Services
+17,INTC,Information Technology
+18,VZ,Communication Services
+19,HD,Consumer Discretionary
+20,MRK,Health Care
+21,CVX,Energy
+22,PFE,Health Care
+23,KO,Consumer Staples
+24,WFC,Financials
+25,CMCSA,Communication Services
+26,CSCO,Information Technology
+27,PEP,Consumer Staples
+28,C,Financials
+29,BA,Industrials
+30,WMT,Consumer Staples
+31,ADBE,Information Technology
+32,ABT,Health Care
+33,MDT,Health Care
+34,BMY,Health Care
+35,MCD,Consumer Discretionary
+36,CRM,Information Technology
+37,NVDA,Information Technology
+38,AMGN,Health Care
+39,NFLX,Communication Services
+40,ACN,Information Technology
+41,PM,Consumer Staples
+42,ABBV,Health Care
+43,TMO,Health Care
+44,COST,Consumer Staples
+45,PYPL,Information Technology
+46,HON,Industrials
+47,NKE,Consumer Discretionary
+48,UNP,Industrials
+49,AVGO,Information Technology
+50,UTX,Industrials
+51,TXN,Information Technology
+52,IBM,Information Technology
+53,NEE,Utilities
+54,ORCL,Information Technology
+55,LIN,Materials
+56,LLY,Health Care
+57,SBUX,Consumer Discretionary
+58,AMT,Real Estate
+59,MMM,Industrials
+60,QCOM,Information Technology
+61,DHR,Health Care
+62,GE,Industrials
+63,CVS,Health Care
+64,LMT,Industrials
+65,MO,Consumer Staples
+66,LOW,Consumer Discretionary
+67,BKNG,Consumer Discretionary
+68,FIS,Information Technology
+69,USB,Financials
+70,AXP,Financials
+71,UPS,Industrials
+72,GILD,Health Care
+73,CAT,Industrials
+74,MDLZ,Consumer Staples
+75,ANTM,Health Care
+76,CI,Health Care
+77,CHTR,Communication Services
+78,TFC,Financials
+79,TJX,Consumer Discretionary
+80,ADP,Information Technology
+81,BDX,Health Care
+82,GS,Financials
+83,CME,Financials
+84,COP,Energy
+85,CB,Financials
+86,PNC,Financials
+87,ISRG,Health Care
+88,D,Utilities
+89,INTU,Information Technology
+90,SYK,Health Care
+91,SPGI,Financials
+92,SO,Utilities
+93,DUK,Utilities
+94,FISV,Information Technology
+95,TGT,Consumer Discretionary
+96,BSX,Health Care
+97,ZTS,Health Care
+98,MS,Financials
+99,AGN,Health Care
