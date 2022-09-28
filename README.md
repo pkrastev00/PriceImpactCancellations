@@ -1,5 +1,5 @@
 # PriceImpactCancellations
-Public repository submitted as part MSc thesis. Only one example file for extracting features from LOBSTER data is available. Already extracted features and files regarding the other experiments are available upon request.
+Public repository submitted as part of MSc thesis. Only one example file for extracting features from LOBSTER data is available. Already extracted features and files regarding the other experiments are available upon request.
 
 ## utils
 Contains all files used for preprocssing the LOBSTER data. More precisely each files achieves the following:
@@ -9,7 +9,7 @@ Contains all files used for preprocssing the LOBSTER data. More precisely each f
   
 ### utils_msg_expand.py
   - Expands message file by adding Mid Price, Best Bid, Best Ask
-  - Adds level at which order is located at event trigger plus the size of the level. For cancellation information is displayed for the period just before the cancellation has happened
+  - Adds level at which order is located at event trigger plus the size of the level. For cancellations, information is displayed for the period just before the cancellation has happened
 
 ### utils_cancel_expand.py
   - Loads cancellations from an expanded message df. 
@@ -30,9 +30,9 @@ Contains all files used for preprocssing the LOBSTER data. More precisely each f
 
 ## Experiment4_main.py
   - Script for main experiment. 
-  - Extracts cfi, log returns and cancellation and total volume infromation
+  - Extracts cfi, log returns and cancellation (total volume/counts) infromation
 
 ## Experiment4_main.sh
   - Shell file to run experiment on SLURM
-  - use sbatch Experiment4_main.sh to run
+  - use **sbatch Experiment4_main.sh** to run
   
